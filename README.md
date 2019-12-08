@@ -2,4 +2,4 @@
 
 Это САМЫЙ крутой БЛОГ из ТЕХ что ты ВИДЕЛ
 
-![alt text](https://prnt.sc/q7wgst)
+![Image alt](https://github.com/ziliboba-dan/BlogOnROR/blob/master/shrek.jpg)

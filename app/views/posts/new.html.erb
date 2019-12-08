@@ -1,0 +1,32 @@
+<style>
+      h1 {
+        /* background: #000 url(shrek.jpg); Фоновый цвет и фоновый рисунок */
+        color: #FF69B4; /*Цвет текста на странице*/
+        /* background-attachment: fixed; Фон страницы фиксируется */
+        /* background-repeat: repeat-x; Изображение повторяется по горизонтали */
+        font-size: 60px;
+      }
+      td {
+        /* background: #000 url(shrek.jpg); Фоновый цвет и фоновый рисунок */
+        color: #FF0000; /*Цвет текста на странице*/
+        font-size: 15px;
+      }
+      th {
+        /* background: #000 url(shrek.jpg); Фоновый цвет и фоновый рисунок */
+        color: #FA8072; /*Цвет текста на странице*/
+        font-size: 30px;
+      }
+      table {
+        width: 500px;
+        height: 100px;
+      }
+      tbody {
+        font-size: 10px;
+      }
+      
+</style>
+<h1>New Post</h1>
+
+<%= render 'form', post: @post %>
+
+<%= link_to 'Back', posts_path %>
